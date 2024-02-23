@@ -1,0 +1,41 @@
+.form-div{
+    padding: 20px 0px;
+    width: 80%;
+    min-height: 90vh;
+    border: 1px solid rgb(231, 227, 227);
+    margin: 10px auto;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.form-element{
+    padding-inline: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.form-element input{
+    font-size: 20px;
+    height: 30px;
+}
+
+
+.form-div button{
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #e4dfdf;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.form-label::after{
+    content: '*';
+    color: rgb(213, 9, 9);
+}
