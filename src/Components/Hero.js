@@ -17,7 +17,7 @@ const Hero = () => {
       <div className='hero-button' onClick={() => window.open("https://www.bluetickconsultants.com/generative-ai.html")}>
         <span>To Know More About us -{`>`}</span>
       </div>
-      <img src='https://generative-ai.bluetickconsultants.com/images/products/interviewgpt.webp' alt="gif" style={{width: "100%"}}/>
+      <img src='https://generative-ai.bluetickconsultants.com/images/products/interviewgpt.webp' alt="gif"/>
     </div>
     <Footer />
     </>

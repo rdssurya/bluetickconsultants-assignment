@@ -9,7 +9,7 @@ const Contact = () => {
     <Header />
     <form className='form-div'>
         <div className='form-element'>
-            <label className='form-label'>First Name</label>
+            <label className='form-label'>Full Name</label>
             <input type="text" required/>
         </div>
         <div className='form-element'>
